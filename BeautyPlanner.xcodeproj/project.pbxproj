@@ -11,6 +11,8 @@
 		2E77E05F2C7D15B2005F600B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77E05E2C7D15B2005F600B /* ContentView.swift */; };
 		2E77E0612C7D15B3005F600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E77E0602C7D15B3005F600B /* Assets.xcassets */; };
 		2E77E0642C7D15B3005F600B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E77E0632C7D15B3005F600B /* Preview Assets.xcassets */; };
+		2E77E06B2C7D16BE005F600B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77E06A2C7D16BE005F600B /* WelcomeView.swift */; };
+		2E77E06D2C7D177E005F600B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77E06C2C7D177E005F600B /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2E77E05E2C7D15B2005F600B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E77E0602C7D15B3005F600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E77E0632C7D15B3005F600B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E77E06A2C7D16BE005F600B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2E77E06C2C7D177E005F600B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2E77E05C2C7D15B2005F600B /* BeautyPlannerApp.swift */,
 				2E77E05E2C7D15B2005F600B /* ContentView.swift */,
+				2E77E06A2C7D16BE005F600B /* WelcomeView.swift */,
+				2E77E06C2C7D177E005F600B /* Colors.swift */,
 				2E77E0602C7D15B3005F600B /* Assets.xcassets */,
 				2E77E0622C7D15B3005F600B /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E77E05F2C7D15B2005F600B /* ContentView.swift in Sources */,
+				2E77E06D2C7D177E005F600B /* Colors.swift in Sources */,
+				2E77E06B2C7D16BE005F600B /* WelcomeView.swift in Sources */,
 				2E77E05D2C7D15B2005F600B /* BeautyPlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
