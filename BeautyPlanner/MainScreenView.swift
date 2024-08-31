@@ -81,10 +81,10 @@ struct MainScreenView: View {
     }
 
     let categories = [
-        Category(title: "1", iconName: "face.smiling"),
-        Category(title: "2", iconName: "scissors"),
-        Category(title: "3", iconName: "figure.walk"),
-        Category(title: "4", iconName: "hand.raised")
+        Category(title: "", iconName: "face.smiling"),
+        Category(title: "", iconName: "scissors"),
+        Category(title: "", iconName: "figure.walk"),
+        Category(title: "", iconName: "hand.raised")
     ]
     
     let dates = [
