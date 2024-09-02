@@ -33,7 +33,7 @@ struct MainScreenView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 20) {
-                        // Пример категорий
+                       
                         ForEach(categories) { category in
                             VStack {
                                 Image(systemName: category.iconName)
