@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1728E52C8CF1C1003A92E9 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 2E1728E42C8CF1C1003A92E9 /* FSCalendar */; };
+		2E1728E72C8CF327003A92E9 /* ProcedureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1728E62C8CF327003A92E9 /* ProcedureView.swift */; };
 		2E77E05D2C7D15B2005F600B /* BeautyPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77E05C2C7D15B2005F600B /* BeautyPlannerApp.swift */; };
 		2E77E05F2C7D15B2005F600B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77E05E2C7D15B2005F600B /* ContentView.swift */; };
 		2E77E0612C7D15B3005F600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E77E0602C7D15B3005F600B /* Assets.xcassets */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1728E62C8CF327003A92E9 /* ProcedureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureView.swift; sourceTree = "<group>"; };
 		2E77E0592C7D15B2005F600B /* BeautyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E77E05C2C7D15B2005F600B /* BeautyPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyPlannerApp.swift; sourceTree = "<group>"; };
 		2E77E05E2C7D15B2005F600B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1728E52C8CF1C1003A92E9 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +73,7 @@
 				2E77E0702C7DCC35005F600B /* TabBarView.swift */,
 				2E77E06E2C7DCBEA005F600B /* MainScreenView.swift */,
 				2E8CCD2B2C80F1DB00915881 /* CalendarView.swift */,
+				2E1728E62C8CF327003A92E9 /* ProcedureView.swift */,
 				2E77E0722C7DCD41005F600B /* Category.swift */,
 				2E77E06C2C7D177E005F600B /* Colors.swift */,
 				2E77E0602C7D15B3005F600B /* Assets.xcassets */,
@@ -101,6 +106,9 @@
 			dependencies = (
 			);
 			name = BeautyPlanner;
+			packageProductDependencies = (
+				2E1728E42C8CF1C1003A92E9 /* FSCalendar */,
+			);
 			productName = BeautyPlanner;
 			productReference = 2E77E0592C7D15B2005F600B /* BeautyPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 2E77E0502C7D15B2005F600B;
+			packageReferences = (
+				2E1728E32C8CF1C1003A92E9 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 2E77E05A2C7D15B2005F600B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,6 +173,7 @@
 				2E77E06B2C7D16BE005F600B /* WelcomeView.swift in Sources */,
 				2E77E0712C7DCC35005F600B /* TabBarView.swift in Sources */,
 				2E77E05D2C7D15B2005F600B /* BeautyPlannerApp.swift in Sources */,
+				2E1728E72C8CF327003A92E9 /* ProcedureView.swift in Sources */,
 				2E77E0732C7DCD42005F600B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +373,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E1728E32C8CF1C1003A92E9 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E1728E42C8CF1C1003A92E9 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E1728E32C8CF1C1003A92E9 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E77E0512C7D15B2005F600B /* Project object */;
 }
